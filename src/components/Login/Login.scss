@@ -1,0 +1,28 @@
+.google-sign-in-btn{
+    /* text-align: center; */
+    margin-top: 20px;
+    width: 270px;
+    padding: 5px 8px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.google-sign-in-btn:focus{
+    outline: none;
+}
+.login-box{
+    padding: 50px;
+    box-shadow: 0 0 10px gray;
+    width:400px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 10px
+}
+/* .w-50{
+    width:200px!important;
+} */
+.google-icon{
+    color: green;
+    margin-right: 25px;
+    margin-left: -10px;
+}

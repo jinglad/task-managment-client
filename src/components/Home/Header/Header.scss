@@ -1,0 +1,61 @@
+.header-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.726)),url("../../../img/advance.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .header-txt{
+        color: white;
+        text-align: center;
+        text-shadow: 0 0 10px gray;
+        padding-top: 50px;
+        
+        h1{
+            font-size: 6.5rem!important;
+        }
+    }
+
+    .login-btn{
+        text-align: center;
+        margin-top: 200px;
+
+        .btn-student{
+            color: white;
+            font-size: 40px;
+            padding: 15px 25px;
+            border: 1px solid gray;
+            background: transparent;
+            outline: none;
+            border-radius: 15px;
+            transition: .3s;
+        }
+
+        .btn-student:hover{
+            background: crimson;
+            border: 1px solid crimson;
+        }
+
+        .btn-instructor{
+            color: white;
+            font-size: 40px;
+            padding: 15px 25px;
+            border: 1px solid rgb(128, 128, 128);
+            background: transparent;
+            outline: none;
+            border-radius: 15px;
+            margin-right: 20px;
+            transition: .3s;
+        }
+
+        .btn-instructor:hover{
+            background: darkblue;
+            border: 1px solid darkblue;
+        }
+    }
+}
+
+.btn-outline-dark{
+    color: white!important;
+}
